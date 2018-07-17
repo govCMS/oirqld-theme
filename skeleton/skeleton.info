@@ -1,0 +1,40 @@
+
+name         = OIR Theme
+description  = Oir Corporate Theme based on the lightweight CSS Skeleton Library
+core         = 7.x
+
+#stylesheets
+stylesheets[all][]	  = css/responsive.css
+stylesheets[print][]  = css/print.css
+stylesheets[all][]    = css/skeleton.css
+stylesheets[all][]    = css/normalize.css
+stylesheets[all][]	  = css/bootstrap.css
+stylesheets[all][]	  = css/morone.css
+stylesheets[all][]	  = css/moronesidebar.css		
+
+
+
+#javascript
+scripts[] = js/script.js
+scripts[] = js/tinynav.min.js
+scripts[] = js/superfish.js
+scripts[] = js/custom.js
+
+#regions
+regions[header]         = Header
+regions[alert]          = Alert
+regions[breadcrumbs]    = Breadcrumbs
+regions[oirmainmenu]    = Main menu region
+regions[featured]       = Featured
+regions[content]        = Content
+regions[sidebar_first]  = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer]         = Footer
+regions[cright]			= Footer Copyright Message
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+regions[searcharea]		= Search Header	
+regions[quicklinksmenu] = Quick Links Menu
+regions[homebanner]     = Home Banner                  
+regions[testzone]       = Temp testzone
+regions[homeimage]		= Home Image
