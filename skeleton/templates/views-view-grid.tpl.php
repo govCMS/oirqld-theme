@@ -13,15 +13,11 @@
 
 
 <!-- start home buttons  div -->
-<div class="container">
-	<div class="row oir-featured-row">
-		<div class="md_top_margins">&nbsp;</div>
-	</div>
-</div>
 
-<div class="container bg-image">
+
+<div class="container bg-image" style="margin-top:3em;padding-top:4em;">
     <?php foreach ($rows as $row_number => $columns): ?>
-      <div class="row oir_grey md_bottom_margins">
+      <div class="row  md_bottom_margins">
         <?php foreach ($columns as $column_number => $item): ?>
          <div class="three columns oir_white offset-by-quarter offset-bt-by-one">
             <?php print $item; ?>

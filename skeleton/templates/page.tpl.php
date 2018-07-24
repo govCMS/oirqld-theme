@@ -45,7 +45,7 @@
 				</div>
 		<?php	} ?>
 		
-	</div><!-- end container -->
+	</div>
 </div>
 	
 <?php include 'footer.tpl.php'; ?>

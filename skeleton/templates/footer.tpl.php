@@ -1,6 +1,6 @@
 <div class="container footer-container">
 	<div class="row oir_drk">
-	<div class="twelve columns footer-col">
+	<div class="twelve columns footer-col" style="text-align: center;">
 		<?php print render($page['footer']); ?>
 	</div>
 	</div>
