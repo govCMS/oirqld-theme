@@ -1,0 +1,186 @@
+.sf-menu.sf-style-oir {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.sf-menu.sf-style-oir.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-oir ul {
+  padding-left: 0;
+}
+
+
+
+.sf-menu.sf-style-oir li {
+color: #fff;
+border-bottom: 1px solid #fff;
+}
+
+.sf-menu.sf-style-oir > li > a:hover{
+ color: #fff !important;	
+}
+
+
+.sf-menu.sf-style-oir a,
+.sf-menu.sf-style-oir span.nolink {
+  /*border: 1px outset #003973;*/
+  color: #1F1F1F;
+  padding: 0.75em 1em;
+  font-weight:600;
+  
+}
+.sf-menu.sf-style-oir a.sf-with-ul,
+.sf-menu.sf-style-oir span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-oir.rtl a.sf-with-ul,
+.sf-menu.sf-style-oir.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-oir.sf-navbar a,
+.sf-menu.sf-style-oir.sf-navbar span.nolink {
+  border: 0;
+}
+.sf-menu.sf-style-oir span.sf-description {
+  display: block;
+  font-size: 0.833em;
+  line-height: 1.5;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-oir.rtl span.sf-description {
+  margin: 5px 5px 0 0;
+}
+.sf-menu.sf-style-oir ul > li ul > li > a,
+.sf-menu.sf-style-oir ul > li ul > li > a:visited,
+.sf-menu.sf-style-oir ul > li ul > li > a:active
+{
+   color:#fff !important;
+}
+
+
+
+.sf-menu.sf-style-oir li li, 
+.sf-menu.sf-style-oir li li > a:hover,.sf-menu.sf-style-oir li li > a  {
+   background: #635164;
+   color:#fff;
+}
+
+.sf-menu.sf-style-oir li li:hover{
+	background-color: #8C5594;
+	color:#fff;
+}
+
+
+.sf-depth-2 li, .sf-depth-2 li > a{
+   background: #635164 !important; color:#fff !important;
+
+}
+
+.sf-depth-3 li:hover{
+   background: #635164 !important; color:#fff !important;
+
+}
+
+
+.sf-menu.sf-style-oir li.sfHover,
+.sf-menu.sf-style-oir a:focus, 
+.sf-menu.sf-style-oir a:hover,
+.sf-menu.sf-style-oir a:active,
+.sf-menu.sf-style-oir span.nolink:hover,
+.sf-menu.sf-style-oir.sf-navbar li {
+  background: #635164;
+  
+}
+
+.sf-menu.sf-style-oir.sf-navbar li ul {
+    
+}
+.sf-menu.sf-style-oir.sf-navbar ul > li > ul > li > a. ,.sf-menu.sf-style-oir.sf-navbar > ul > li > ul > li >a:visited ,.sf-menu.sf-style-oir.sf-navbar > ul > li > ul > li >a:hover{
+ color:#fff !important;
+}
+
+
+div.sf-accordion-toggle.sf-style-oir a {
+  /* background: #791251; 
+  border: 1px outset #003973;
+  color: #fff;
+  padding: 1em;
+  */
+}
+
+
+div.sf-accordion-toggle.sf-style-oir a.sf-expanded,
+.sf-menu.sf-style-oir.sf-accordion li.sf-expanded {
+
+  color:#fff;
+}
+
+
+
+div.sf-accordion-toggle.sf-style-oir a.sf-expanded,
+.sf-menu.sf-style-oir.sf-accordion li.sf-expanded > a,
+.sf-menu.sf-style-oir.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold;
+}
+.sf-menu.sf-style-oir.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499;
+}
+.sf-menu.sf-style-oir.sf-accordion li li a,
+.sf-menu.sf-style-oir.sf-accordion li li span.nolink {
+  padding-left: 2em;
+}
+.sf-menu.sf-style-oir.sf-accordion li li li a,
+.sf-menu.sf-style-oir.sf-accordion li li li span.nolink {
+  padding-left: 3em;
+}
+.sf-menu.sf-style-oir.sf-accordion li li li li a,
+.sf-menu.sf-style-oir.sf-accordion li li li li span.nolink {
+  padding-left: 4em;
+}
+.sf-menu.sf-style-oir.sf-accordion li li li li a,
+.sf-menu.sf-style-oir.sf-accordion li li li li span.nolink {
+  padding-left: 5em;
+}
+.sf-menu.sf-style-oir.rtl.sf-accordion li li a,
+.sf-menu.sf-style-oir.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em;
+}
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li a,
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em;
+}
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li li a,
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em;
+}
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li li li a,
+.sf-menu.sf-style-oir.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em;
+}
+.sf-menu.sf-style-oir ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-oir ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-oir ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent,
+.sf-menu.sf-style-oir ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-oir ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+}
+.sf-menu.sf-style-oir.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
