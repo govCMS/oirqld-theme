@@ -1,7 +1,8 @@
 
 name         = OIR Theme
-description  = Oir Corporate Theme based on the lightweight CSS Skeleton Library
+description  = Skeleton Theme for OIR Corporate based on the lightweight CSS Skeleton Library
 core         = 7.x
+screenshot   = skeleton.png
 
 #stylesheets
 stylesheets[all][]	  = css/responsive.css
@@ -10,7 +11,9 @@ stylesheets[all][]    = css/skeleton.css
 stylesheets[all][]    = css/normalize.css
 stylesheets[all][]	  = css/bootstrap.css
 stylesheets[all][]	  = css/morone.css
-stylesheets[all][]	  = css/moronesidebar.css		
+stylesheets[all][]	  = css/moronesidebar.css
+stylesheets[all][]	  = css/dark.css
+stylesheets[all][]	  = css/oir.css
 
 
 
