@@ -6,7 +6,7 @@
 	</div>
 	<div class="row">
 	<div class="twelve columns">
-	<div class="u-centered md_top_margins md_bottom_margins"> &copy; Queensland Government 2018 </div> 
+	<div class="u-centered md_top_margins md_bottom_margins"><?php print render($page['cright']);?> </div> 
 	</div>
 	</div>
 </div>	
