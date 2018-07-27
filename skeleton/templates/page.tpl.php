@@ -3,6 +3,7 @@
 	$thisnode = 'node/'.$node->nid; 
 	$thispath = explode('/',request_path());
 	$thispath = $thispath[0];
+	$secondSidebar = $page['sidebar_second'];
 
 ?>
 <?php include 'header.tpl.php'; ?>
@@ -17,15 +18,15 @@
 	
 	<div class="row oir-content-row">
 			<div class="two columns oir-two-col"><?php print render($page['sidebar_first']); ?></div>
-			<?php if(!$page['sidebar_second']){ ?>
+			<?php if(!$secondSidebar){ ?>
 				<div class="ten columns oir-ten-cols">
 			<?php } 
 			else{ ?>
-					<div class="six columns oir-6-col">
+					<div class="seven columns oir-6-col">
 			<?php }
 			?>
 			
-				<h1 class="md_bottom_margins_sm moronefont">
+				<h1 class="md_bottom_margins_sm moronefont md-negative-top">
 				<?php 
 				if($thispath != 'search'){
 					print  render($title) ;
@@ -35,13 +36,13 @@
 				?>
 				</h1>
 				<?php print render($page['content']); ?>
-				</div>	
+				
 		</div>
 		
 		<?php 
-			if($page['sidebar_second']){ ?>
-				<div class="two columns oir_sidebar_grey">
-				<?php print render($page['sidebar_second']); ?>	
+			if($secondSidebar){ ?>
+				<div class="three columns oir_sidebar_grey">
+				<?php print render($secondSidebar); ?>	
 				</div>
 		<?php	} ?>
 		
