@@ -23,6 +23,7 @@
 - Breadcrumbs
 - Spacing
 - Utilities
+- Alerts
 - Clearing
 - Media Queries
 */
@@ -37,6 +38,10 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+ .footer-container{
+	 margin-top:1.5em;
+ } 
+  
 .column,
 .columns {
   width: 100%;
@@ -273,6 +278,7 @@ p.p-featured{
 
 .oir_sidebar_grey {
 	background-color:#D8DEDC;
+	padding:1.0em;
 }
 
 .oir_drk {
@@ -383,7 +389,7 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
   
 input[type="submit"].button-primary:hover{
-	  background-color:#8f3c72;
+	
   }
 
   
@@ -607,6 +613,20 @@ form {
 .u-centered{
 	text-align:center;
 }  
+
+.oir_alert{
+	background-color:#EFEFEF;
+	padding:1.0em;
+	border: 1px solid #ccc;
+	margin-bottom: 1.2em;
+}
+
+.lite_alert{
+	background-color:#F4BEC2;
+	padding:1.0em;
+	border: 1px solid #ccc;
+	margin-bottom: 1.2em;
+}
   
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
