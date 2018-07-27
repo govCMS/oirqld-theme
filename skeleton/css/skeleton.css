@@ -161,7 +161,7 @@ body {
 }  
 /* just some rough ideas - not final */
 .bg-image{
-  background-image: url("../images/5938_OIRBackgrundgraphic-01.jpg");
+ /* background-image: url("../images/5938_OIRBackgrundgraphic-01.jpg"); */
   background-repeat:no-repeat;
   background-position: left bottom;
   background-color:#efefef;
