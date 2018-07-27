@@ -28,6 +28,7 @@ a.active{
 .sf-menu.sf-style-moronesidebar a.sf-with-ul,
 .sf-menu.sf-style-moronesidebar span.nolink.sf-with-ul {
   padding-right: 2.25em;
+  text-decoration: none !important;
 }
 .sf-menu.sf-style-moronesidebar.rtl a.sf-with-ul,
 .sf-menu.sf-style-moronesidebar.rtl span.nolink.sf-with-ul {
@@ -64,9 +65,20 @@ a.active{
   color: #fff;
 }
 
+.sf-menu.sf-style-moronesidebar li > a {
+	text-decoration:none !important;
+}
+
+ul#superfish-7 > li > a , ul#superfish-7 > li > li > a{
+	text-decoration: none !important;
+}
+
+
+
 .sf-menu.sf-style-moronesidebar li li > a {
   background: #635164;
   color: #fff;
+  text-decoration: none !important;
 }
 
 .sf-menu.sf-style-moronesidebar li li li {
