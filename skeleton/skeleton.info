@@ -5,15 +5,15 @@ core         = 7.x
 screenshot   = skeleton.png
 
 #stylesheets
-stylesheets[all][]	  = css/responsive.css
-stylesheets[print][]  = css/print.css
-stylesheets[all][]    = css/skeleton.css
-stylesheets[all][]    = css/normalize.css
-stylesheets[all][]	  = css/bootstrap.css
-stylesheets[all][]	  = css/morone.css
-stylesheets[all][]	  = css/moronesidebar.css
-stylesheets[all][]	  = css/dark.css
-stylesheets[all][]	  = css/oir.css
+stylesheets[all][]	= css/responsive.css
+stylesheets[print][]  	= css/print.css
+stylesheets[all][]    	= css/skeleton.css
+stylesheets[all][]    	= css/normalize.css
+stylesheets[all][]	= css/bootstrap.css
+stylesheets[all][]	= css/morone.css
+stylesheets[all][]	= css/moronesidebar.css
+stylesheets[all][]	= css/dark.css
+stylesheets[all][]	= css/oir.css
 
 
 
@@ -25,6 +25,7 @@ scripts[] = js/custom.js
 
 #regions
 regions[header]         = Header
+regions[homebannertxt]  = Home Banner Text
 regions[alert]          = Alert
 regions[breadcrumbs]    = Breadcrumbs
 regions[oirmainmenu]    = Main menu region
@@ -33,11 +34,11 @@ regions[content]        = Content
 regions[sidebar_first]  = Sidebar first
 regions[sidebar_second] = Sidebar second
 regions[footer]         = Footer
-regions[cright]			= Footer Copyright Message
+regions[cright]		    = Footer Copyright Message
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom
-regions[searcharea]		= Search Header	
+regions[searcharea]	    = Search Header	
 regions[quicklinksmenu] = Quick Links Menu
 regions[homebanner]     = Home Banner                  
 regions[testzone]       = Temp testzone
-regions[homeimage]		= Home Image
+regions[homeimage]	    = Home Image
