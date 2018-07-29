@@ -38,6 +38,11 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+  
+  .featured-container{
+	 
+  }
+  
  .footer-container{
 	 margin-top:1.5em;
  } 
@@ -124,7 +129,7 @@
 
   
   /* top margins */
-  .md_top_margins 				  { margin-top: 1.0em; }
+  .md_top_margins 				  { margin-top: 1.5em; }
   .offset-tp-by-half			  { margin-top: 0.5em; }
   .md-negative-top			      { margin-top: -0.1em; }
 
@@ -242,6 +247,10 @@ h2.featured > a { line-height: 1.25; letter-spacing: -.1rem; color: #000; paddin
 	display:none;
 }
 
+ul#superfish-9 > li.first {
+	border-top:1px solid !important;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
@@ -289,6 +298,7 @@ p.p-featured{
 	background-color:#fff;
 }
   
+    
   
  
   
@@ -303,8 +313,18 @@ a:visited{
 	
 }
 
+.oir-home > a {
+	text-decoration:none !important;
+}
+
 h2 > a {
 	text-decoration: none !important; 
+}
+
+a.site_title:hover{
+	color:white;
+	text-decoration: underline !important; 
+	
 }
 
 h3{
@@ -329,6 +349,10 @@ h3 > a {
 
 .button.oir-moron:hover{
 	color:#6F054F !important; }
+
+.eq_buttons{
+		position: absolute;
+		bottom: 40px; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
