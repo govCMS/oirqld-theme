@@ -9,11 +9,11 @@ stylesheets[all][]	= css/responsive.css
 stylesheets[print][]  	= css/print.css
 stylesheets[all][]    	= css/skeleton.css
 stylesheets[all][]    	= css/normalize.css
-stylesheets[all][]	= css/bootstrap.css
-stylesheets[all][]	= css/morone.css
-stylesheets[all][]	= css/moronesidebar.css
-stylesheets[all][]	= css/dark.css
-stylesheets[all][]	= css/oir.css
+stylesheets[all][]	    = css/bootstrap.css
+stylesheets[all][]	    = css/morone.css
+stylesheets[all][]	    = css/moronesidebar.css
+stylesheets[all][]	    = css/dark.css
+stylesheets[all][]	    = css/oir.css
 
 
 
