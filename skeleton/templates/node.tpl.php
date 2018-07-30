@@ -29,7 +29,7 @@ endif;
         </p>
       <?php endif; ?>
 
-      <?php if ($unpublished): ?>
+      <?php if (isset($unpublished)): ?>
         <mark class="unpublished"><?php print t('Unpublished'); ?></mark>
       <?php endif; ?>
     </header>
@@ -41,7 +41,7 @@ endif;
   hide($content['links']);
   print render($content);
   
-  print '<br>Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
+  print '<br><span class="oir_news_page_date"><i>Last updated '. format_date($node->changed,'custom', 'd F Y')."</i></span></p>";
   ?>
 
   <?php print render($content['links']); ?>
