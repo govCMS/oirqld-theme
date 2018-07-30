@@ -7,7 +7,8 @@
 		<div class="row md_top_margins oir_grey">
 			
 			<div class="one-half column">
-			<span class="overlay-txt" style="">Some important heading</span>
+			<?php  print render($page['homebannertxt']); ?>	
+	
 			<img src="<?php print path_to_theme(); ?>/images/20151019DT_565v1_sml.jpg" id="" style="max-width:630px;width:100%;height:auto;"></div>
 			<div class="one-half column sm_padding">
 			
