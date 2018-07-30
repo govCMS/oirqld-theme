@@ -9,7 +9,7 @@
 			<div class="one-half column">
 			<?php  print render($page['homebannertxt']); ?>	
 	
-			<img src="<?php print path_to_theme(); ?>/images/20151019DT_565v1_sml.jpg" id="" style="max-width:630px;width:100%;height:auto;"></div>
+	<img src="<?php print path_to_theme(); ?>/images/20151019DT_565v1_sml.jpg" id="" style="max-width:630px;width:100%;height:auto;margin-top: -10px;"></div>
 			<div class="one-half column sm_padding">
 			
 			<?php print render($page['homebanner']); ?>
