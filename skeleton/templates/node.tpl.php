@@ -49,7 +49,7 @@ $lastpart = array_pop($urlpath);
 	print '</span><br><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
   }
   else{
-	print '<p><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
+	print '<p style="margin-top:25px;"><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
   }
   ?>
 
