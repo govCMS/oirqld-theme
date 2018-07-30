@@ -10,6 +10,8 @@
 if (!isset($title_tag) || empty($title_tag)) :
   $title_tag = 'h2';
 endif;
+$urlpath = explode('/',request_path());
+$lastpart = array_pop($urlpath);
 
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
@@ -36,12 +38,19 @@ endif;
   <?php endif; ?>
 
   <?php
-  // We hide the comments and links now so that we can render them later.
   hide($content['comments']);
   hide($content['links']);
   print render($content);
-  
-  print '<br><span class="oir_news_page_date"><i>Last updated '. format_date($node->changed,'custom', 'd F Y')."</i></span></p>";
+   if(($node->type =='news_article') AND ($lastpart =='news')){
+	  print '<p style="margin-top:25px;"><span class="oir_news_page_date">Last published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created) .'</span></p>'; 
+  }
+  elseif(($node->type =='news_article') AND ($lastpart !='news')){
+	 print '<p style="margin-top:25px;"><span>Last published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created);  
+	print '</span><br><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
+  }
+  else{
+	print '<p><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
+  }
   ?>
 
   <?php print render($content['links']); ?>
