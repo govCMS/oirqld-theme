@@ -11,15 +11,37 @@
 }
 
 
+ div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 a.sf-depth-1:hover{
+	 color:#fff;
+ }
 
-.sf-menu.sf-style-oir li {
-color: #fff;
-/* border-bottom: 1px solid #fff; */
+
+div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 ul li a.sf-depth-2{
+	 border-bottom: 1px solid #fff;
+	 text-decoration:none !important;
 }
 
-.sf-menu.sf-style-oir > li > a:hover{
- color: #fff !important;	
+div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 ul li a.sf-depth-2:hover{
+	 background-color:#E3929D;
+	 color:
 }
+
+ul#superfish-7.menu.sf-menu.sf-menu-quick-links > li.sf-item-1 span.sf-sub-indicator{
+	color:#000;
+}
+
+.sf-menu.sf-style-oir > li > a, 
+.sf-menu.sf-style-oir > li > li > a, 
+.sf-menu.sf-style-oir > li > a:hover, 
+.sf-menu.sf-style-oir > li > li > a:hover, 
+.sf-menu.sf-style-oir > li > a:visited, 
+.sf-menu.sf-style-oir > li > li > a:visited{	
+ text-decoration:none !important;
+ 
+
+}
+
+
 
 
 .sf-menu.sf-style-oir a,
