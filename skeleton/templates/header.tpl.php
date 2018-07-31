@@ -6,8 +6,17 @@
 			<img src="<?php print $logo ?>" id="oir_logo" alt="<?php echo $site_name; ?>">
 			</a>
 			</div><!-- end logo -->
-			<!-- search --><div class="three columns"></div><!-- end search -->
-			<!-- quick links --><div class="six columns"><?php print render($page['quicklinksmenu']); ?></div><!-- end quick links -->
+			
+			<div class="two columns"></div>
+			<div class="four columns">
+			<?php print render($page['quicklinksmenu']); ?>
+			</div>
+			<div class="three columns">
+			<?php print render($page['searcharea']); ?>
+			</div>
+			
+			
+			
 		</div>
 		<div class="row oir_moron">
 			<div class="three columns">
@@ -17,6 +26,5 @@
 			</div>
 			<div class="eight columns md-center-align ori-main-menu"><?php print render($page['oirmainmenu']); ?></div>
 		</div>
-		
 </div>
 
