@@ -753,9 +753,29 @@ form {
 
 
 .button.oir-home{
-	border-radius:0 !important;
-	background-color:#fff;
-	
+	border-radius: 0 !important;
+    background-color: #fff;
+    background-color: #fff !important;
+    display: inline-block;
+    min-height: 38px;
+    /* padding: 0 30px; */
+    color: #555;
+    /* text-align: center; */
+    font-size: 11px;
+    font-weight: 600;
+    /* line-height: 38px; */
+    letter-spacing: .1rem;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    white-space: normal;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    text-align: left;
+    line-height: 20px;
+    padding: 1em;
+
 	
 }
 
@@ -764,7 +784,7 @@ form {
 }
 
 .button.oir-home:hover{
-		background-color: #F0BDC3;
+		background-color: #F0BDC3 !important;
 }
 
 .region.region-homebanner{
@@ -786,7 +806,7 @@ form {
   float: left; }
 
 .u_eq_height{
-	min-height:150px;
+	min-height:175px;
 }
 
 .u-centered{
