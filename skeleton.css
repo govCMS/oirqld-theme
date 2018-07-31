@@ -754,7 +754,6 @@ form {
 
 .button.oir-home{
 	border-radius: 0 !important;
-    background-color: #fff;
     background-color: #fff !important;
     display: inline-block;
     min-height: 38px;
@@ -775,6 +774,7 @@ form {
     text-align: left;
     line-height: 20px;
     padding: 1em;
+	height:auto;
 
 	
 }
@@ -806,7 +806,7 @@ form {
   float: left; }
 
 .u_eq_height{
-	min-height:150px;
+	min-height:175px;
 }
 
 .u-centered{
