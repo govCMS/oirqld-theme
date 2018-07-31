@@ -45,7 +45,7 @@ $lastpart = array_pop($urlpath);
 	  print '<p style="margin-top:25px;"><span class="oir_news_page_date">Last published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created) .'</span></p>'; 
   }
   elseif(($node->type =='news_article') AND ($lastpart !='news')){
-	 print '<p style="margin-top:25px;"><span>Last published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created);  
+	 print '<p style="margin-top:25px;"><span>Published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created);  
 	print '</span><br><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
   }
   else{
