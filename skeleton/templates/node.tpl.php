@@ -42,7 +42,7 @@ $lastpart = array_pop($urlpath);
   hide($content['links']);
   print render($content);
    if(($node->type =='news_article') AND ($lastpart =='news')){
-	  print '<p style="margin-top:25px;"><span class="oir_news_page_date">Last published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created) .'</span></p>'; 
+	  print '<p style="margin-top:25px;"><span class="oir_news_page_date">Published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created) .'</span></p>'; 
   }
   elseif(($node->type =='news_article') AND ($lastpart !='news')){
 	 print '<p style="margin-top:25px;"><span>Published '.date("d", $node->created).' '.date("F",$node->created) . ' ' .date("Y",$node->created);  
