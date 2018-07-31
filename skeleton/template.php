@@ -32,26 +32,26 @@ function skeleton_preprocess_search_result(&$vars) {
 }
 
 function skeleton_preprocess_search_block_form(&$vars) {
+ 
+ #$form['search_block_form']['#title'] = t('Go'); // Change the text on the label element
 
 }
 
 // Implements hook_form_alter()
 function skeleton_form_alter(&$form, &$form_state, $form_id) {
-	  $form['search_block_form']['#title'] = t('S'); // Change the text on the label element
-
-	if($form_id == 'search-block-form' OR $form_id == 'search-form'){
-		print_r($form);
-		$form['keys_1']['#attributes']['placeholder'] = 'Search ';
-		$form['actions']['submit']['#value'] = t('Go'); // Change the text on the submit button
-		$form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/searchicon.png');
-	}
+	 
+		# $form['keys_1']['#attributes']['placeholder'] = 'Search words';
+		# $form['submit_1']['#value'] = 'Go';
+	
+	
 
 }//end function hook form alter
 
 function skeleton_form_search_block_form_alter(&$form, &$form_state, $form_id) {
-	$form['search_block_form']['#title'] = t('h'); // Change the text on the label element
-	$form['search_block_form']['#attributes']['placeholder'] = t('Search website'); 
-	$form['actions']['submit']['#value'] = t(''); // Change the text on the submit button
+	
+	$form['search_block_form']['#title'] = t(''); // Change the text on the label element
+	$form['search_block_form']['#attributes']['placeholder'] = t('Search'); 
+	$form['actions']['submit']['#value'] = t('Go'); // Change the text on the submit button
 	#$form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/searchicon.png');
 }
 
