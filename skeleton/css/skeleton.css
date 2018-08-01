@@ -727,7 +727,7 @@ div#block-superfish-8 li.sf-depth-3 > a:hover,div#block-superfish-8 li.sf-depth-
 
 div#block-superfish-8 li.sf-depth-3 > a{
 	text-decoration:none;
-	padding-left:20% !important;
+	padding-left:5% !important;
 }
 
 div.region.region-sidebar-first div#block-superfish-8 ul#superfish-8 ol li.active-trail a.sf-depth-3:active{
