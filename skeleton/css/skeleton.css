@@ -695,7 +695,7 @@ div#block-superfish-8.block.block-superfish > ul > ol > ol > li.sf-depth-3 > a:h
 	text-decoration:none;
 	color:#fff;
 	font-weight:normal;
-	background: #000;
+	
 }
 
 ul#superfish-8 > li > ul > li > ol > li > ol li > a.oir-third-level-a.sf-depth-3:hover{
@@ -1060,8 +1060,28 @@ there.
 	form#search-form.search-form div div#edit-basic.container-inline.form-wrapper input#edit-submit.form-submit{
 		margin-top:1.2em;
 	}
+	
+input#edit-search-block-form--2.form-text {
+    border-radius: 0em !important;
+    width: 220px;
+    max-height: 35px;
+    color: #686a69;
+    border: 1px solid;
+    border-color: #6F054F;
+    margin-left: 0.1em;
+	
+	
+ }
 	  
+.front_promoted_height {
+		min-height: unset !important;
+	}
+.region.region-sidebar-first{
+	display:none !important;
 }	
+	  
+	  
+}	/* end media query */
 
 
 
