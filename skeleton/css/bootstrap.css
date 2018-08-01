@@ -1762,7 +1762,7 @@ pre code {
 .table-dark,
 .table-dark>td,
 .table-dark>th {
-    background-color: #c6c8ca
+    background-color: #6F054F
 }
 
 .table-hover .table-dark:hover {
@@ -1791,8 +1791,8 @@ pre code {
 
 .table .thead-dark th {
     color: #fff;
-    background-color: #212529;
-    border-color: #32383e
+    background-color: #6F054F;
+    border-color: #6F054F
 }
 
 .table .thead-light th {
