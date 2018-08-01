@@ -1,5 +1,5 @@
 /*
-* Skeleton V2.0.4
+* Skeleton V2.0.4.1
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
@@ -278,6 +278,26 @@ h2.featured > a { line-height: 1.25; letter-spacing: -.1rem; color: #000; paddin
 ul#superfish-9 > li.first {
 	border-top:1px solid !important;
 }
+
+
+ul#superfish-9 > ul > li {
+	padding:5% !important;
+}
+
+
+div.region.region-sidebar-first ul#superfish-8 li > li:hover {
+		background-color: #e3929d !important; 
+}
+
+div.region.region-sidebar-first ul#superfish-8 a {
+	text-decoration: none !important;
+}
+
+div.region.region-sidebar-first ul#superfish-8 li.active-trail > a {
+	color:white !important;
+}
+
+
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -567,7 +587,6 @@ div.region.region-searcharea div#block-search-form.block.block-search div.conten
 	
 }
 
-html.js body div.oir_wrapper div.container.bg-image-top div.row div.three.columns div.region.region-searcharea div#block-search-form.block.block-search div.content form#search-block-form div div.container-inline div.form-item.form-type-textfield.form-item-search-block-form input#edit-search-block-form--2.form-text
 
 
 div.region.region-searcharea div#block-search-form.block.block-search div.content form#search-block-form div div.container-inline div#edit-actions--2.form-actions.form-wrapper input#edit-submit--2.form-submit{
@@ -630,66 +649,93 @@ div.region.region-searcharea div#block-search-form.block.block-search div.conten
 	background: #e3929d;
 }
 
-ul#superfish-9 a.sf-depth-2.menuparent.active{
+
+div.region.region-sidebar-first div#block-superfish-8 a.nav-link.sf-depth-1{
+	color:#1f1f1f;
+	border-bottom: 1px solid #1f1f1f;
+}
+
+div.region.region-sidebar-first div#block-superfish-8 a.nav-link.sf-depth-1:hover{
+	color:#fff;
+	background:#635964; 
+	
+}
+
+
+ ul#superfish-8 > ul{
+	color:#fff;
+	background:#635964 !important; 
+ }
+
+
+ul#superfish-8 a.sf-depth-2.menuparent.active{
 	font-weight:normal !important;
 }
 
-ul#superfish-9 a.sf-depth-2.menuparent.active:hover{
+ul#superfish-8 a.sf-depth-2.menuparent.active:hover{
 	color:#fff;
 	background: #CD6279;
 }
 
-ul#superfish-9 a.sf-depth-3:hover{
+ul#superfish-8 a.sf-depth-3:hover{
 	color:#fff;
-	background: #CD6279;
+	/*background: #CD6279;*/
 }
 
-div#block-superfish-9.block.block-superfish a.sf-depth-2.menuparent{
+div#block-superfish-8.block.block-superfish a.sf-depth-2.menuparent{
 	color:#fff;
 	text-decoration:none !important;
 }
 
-ul#superfish-9 a.sf-depth-3:hover{
-	background: #fff;
+div.region.region-sidebar-first div#block-superfish-8.block.block-superfish ul#superfish-8 li > ul > li.sf-depth-2:hover{
+	background: #CD6279 !important;
 }
 
-div#block-superfish-9.block.block-superfish > ul > ol > ol > li.sf-depth-3 > a:hover {
+div#block-superfish-8.block.block-superfish > ul > ol > ol > li.sf-depth-3 > a:hover {
 	text-decoration:none;
 	color:#fff;
 	font-weight:normal;
-	background: #CD6279;
+	background: #000;
 }
 
-ul#superfish-9 > li > ul > li > ol > li > ol li > a.oir-third-level-a.sf-depth-3:hover{
-	background: #CD6279;
+ul#superfish-8 > li > ul > li > ol > li > ol li > a.oir-third-level-a.sf-depth-3:hover{
+	
 }
 
-div#block-superfish-9.block.block-superfish ol > li.sf-depth-2 > a,div#block-superfish-9.block.block-superfish ol > li.sf-depth-2 > a:active{
+div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a,div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a:active{
 	text-decoration:none;
 	
 }
 
-div#block-superfish-9.block.block-superfish ol > li.sf-depth-2 > a:hover{
+div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a
+
+div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a:hover{
 	
 	background: #CD6279;
 	text-decoration:none;
 }
 
-div#block-superfish-9 li.sf-depth-3 > a:hover,div#block-superfish-9 li.sf-depth-3 > a:active{
+div#block-superfish-8 li.sf-depth-2 > a:hover,div#block-superfish-8 li.sf-depth-2 > a:active{
+	background: #CD6279 !important;
+}
+
+
+div#block-superfish-8 li.sf-depth-3 > a:hover,div#block-superfish-8 li.sf-depth-3 > a:active{
 	background: #CD6279 !important;
 
 }
 
-div#block-superfish-9 li.sf-depth-3 > a{
+div#block-superfish-8 li.sf-depth-3 > a{
 	text-decoration:none;
 	padding-left:20% !important;
 }
 
-div.region.region-sidebar-first div#block-superfish-9 ul#superfish-9 ol li.active-trail a.sf-depth-3:active{
-	background: #CD6279;
+div.region.region-sidebar-first div#block-superfish-8 ul#superfish-8 ol li.active-trail a.sf-depth-3:active{
+	/*background: #CD6279;*/
+	
 }
 
-div.region.region-sidebar-first div#block-superfish-9 ul#superfish-9 ol li.active-trail a.sf-depth-3{
+div.region.region-sidebar-first div#block-superfish-8 ul#superfish-8 ol li.active-trail a.sf-depth-3{
 	font-weight:normal !important;
 	text-decoration:none;
 }
@@ -752,7 +798,11 @@ li {
 li.active, li.active-trail{
 	 background-color: #635964 !important; }
 li.active > a:active, li.active-trail > a:active{
-	 color:#fff !important; }	 
+	 color:#fff !important;
+
+ }
+
+
 
 
 
