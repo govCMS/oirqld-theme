@@ -988,7 +988,7 @@ hr {
 
   
   .tinynav1{
-	  max-width:80%;
+	  max-width:90%;
   }
 
 /* Media Queries
@@ -1031,7 +1031,7 @@ there.
 		
 	}	
 	
-ul#superfish-7-accordion li > a:hover {
+ul#superfish-7-accordion li > a:hover, ul#superfish-7-accordion li > a:active  {
 		color:#fff;
 }
 	
@@ -1075,7 +1075,7 @@ ul#superfish-7-accordion li > a:hover {
 	
 input#edit-search-block-form--2.form-text {
     border-radius: 0em !important;
-    width: 220px;
+    width: 300px;
     max-height: 35px;
     color: #686a69;
     border: 1px solid;
@@ -1095,7 +1095,7 @@ ul#superfish-3-accordion  > li > a, ul#superfish-3-accordion  > li > a:hover, ul
 }
 
 .oir_header_3 {
-	text-align:center;
+
 }
 
 .sf-menu.sf-style-oir a{
@@ -1130,6 +1130,14 @@ select#tinynav1.tinynav.tinynav1{
 
     
 }
+
+
+div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit {
+    margin-top: -3.1em;
+    position: absolute;
+    left: 320px;
+}
+
 
 	
 }	/* end media query */
