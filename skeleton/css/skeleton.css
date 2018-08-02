@@ -1013,8 +1013,9 @@ there.
 	
 	
 	#oir_logo{
-		width:50% !important;
+		width:75% !important;
 		height:auto;
+		margin-bottom:3px;
 	}
 	.overlay-txt{
 		display:none;
@@ -1030,11 +1031,22 @@ there.
 		
 	}	
 	
+ul#superfish-7-accordion li > a:hover {
+		color:#fff;
+}
+	
+	
+	div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit {
+		margin-right:7em;
+		margin-top: -3.1em;
+	}
 	
 	.oir-ten-cols{
 		padding-left:1.5em;
 		padding-right:1.5em;
 	}
+	
+	
 	#tinynav1{
 		margin-bottom: 1.5em;
 		margin-left:1.2em;
@@ -1068,9 +1080,7 @@ input#edit-search-block-form--2.form-text {
     color: #686a69;
     border: 1px solid;
     border-color: #6F054F;
-    margin-left: 0.1em;
-	
-	
+    margin-left: 0.1em;	
  }
 	  
 .front_promoted_height {
@@ -1079,8 +1089,49 @@ input#edit-search-block-form--2.form-text {
 .region.region-sidebar-first{
 	display:none !important;
 }	
-	  
-	  
+	  	
+ul#superfish-3-accordion  > li > a, ul#superfish-3-accordion  > li > a:hover, ul#superfish-3-accordion  > li > a:active  {
+	text-decoration: none !important;
+}
+
+.oir_header_3 {
+	text-align:center;
+}
+
+.sf-menu.sf-style-oir a{
+	font-weight: normal!important;
+	font-size:0.9em;
+}
+.oir_header_4 {
+	background-color: #CCCCCC;
+}
+	
+	.sf-menu.sf-style-oir {
+    /* float: left; */
+    margin-bottom: 0px!important;
+    padding: 0;
+}
+
+.region-searcharea {
+	background-color: #1F1F1F;
+}
+#search-block-form{
+	margin-bottom:0px;
+	margin-top:-1px;
+	padding:15px;
+}
+
+div.row.md_top_margins.oir_grey{
+	margin-top:unset;
+}
+
+select#tinynav1.tinynav.tinynav1{
+    border-radius: 0px !important;
+
+    
+}
+
+	
 }	/* end media query */
 
 
@@ -1091,14 +1142,33 @@ input#edit-search-block-form--2.form-text {
 /* Larger than phablet (also point when grid becomes active) */
 
 
-/* Larger than tablet */
-@media (min-width: 750px) {
+/* mid tablets */
+
+@media (min-width: 1021px) and (max-width: 1024px) {
+	.oir-ten-cols{
+		padding-left: 5%;
+	}.tinynav1{ display:none;}
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
 	ul#superfish-10.menu { display:block !important;}
 	.tinynav1{ display:none;}
 	
-}
+	.oir-ten-cols{
+		padding-left: 10%;
+	}
+	
+	
+
+	
+}/* end media query */
+
+
 /* Larger than desktop 
 @media (min-width: 1000px) {} */
 
-/* Larger than Desktop HD 
-@media (min-width: 1200px) {}*/
+/* Larger than Desktop HD */
+@media (min-width: 1021px) {
+	.tinynav1{ display:none;}
+	ul#superfish-10.menu { display:block !important;}
+}
