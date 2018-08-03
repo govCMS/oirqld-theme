@@ -15,11 +15,11 @@
 <!-- start home buttons  div -->
 
 
-<div class="container bg-image" style="margin-top:1.8em;padding-top:4em;">
+<div class="container bg-image" style="padding-top:4em;">
     <?php foreach ($rows as $row_number => $columns): ?>
       <div class="row  md_bottom_margins">
         <?php foreach ($columns as $column_number => $item): ?>
-         <div class="three columns oir_white offset-by-quarter offset-bt-by-one">
+         <div class="three columns oir_white offset-by-quarter offset-bt-by-one front_promoted_height">
             <?php print $item; ?>
           </div>
 	<?php endforeach; ?>

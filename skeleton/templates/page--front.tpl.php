@@ -4,13 +4,20 @@
 
 	<div class="container">
 		<!--<span class="darkpanel"><span class="overlaytxt">Event text / announcement05.jpg</span></span>-->
-		<div class="row md_top_margins oir_grey">
+		<div class="row oir_grey">
 			<div class="one-half column">
 			<?php  print render($page['homebannertxt']); ?>	
 			<img src="<?php print path_to_theme(); ?>/images/20151019DT_565v1_sml.jpg" id="" style="max-width:630px;width:100%;height:auto;margin-top: -10px;"></div>
 			<div class="one-half column sm_padding">
 			<?php print render($page['homebanner']); ?>
 			</div>
+		<!--	
+		<div class="twelve columns">
+		<img src="<?php print path_to_theme(); ?>/images/20151019DT_565v1_med.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;">
+		</div>
+			-->
+			
+			
 		</div>
 	</div>	
 
