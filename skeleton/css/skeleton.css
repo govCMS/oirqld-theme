@@ -1,10 +1,10 @@
 /*
-* Skeleton V2.0.4.1
-* Copyright 2014, Dave Gamache
+* Based on Skeleton V2.0.4.1 Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
+* Modified July 2018
 */
 
 
@@ -159,7 +159,7 @@ html {
  
   }
 body {
-  font-size: 1.5em !important; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5em !important; 
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -171,7 +171,7 @@ body {
 .oir_wrapper{
 	min-height:90vh;
 }  
-/* just some rough ideas - not final */
+
 .bg-image{
   background-image: url("../images/5938_OIRBackgrundgraphic-01.jpg");
   background-repeat:no-repeat;
@@ -229,11 +229,14 @@ h1 { font-size: 4.0rem; line-height: 1.2;   color:white;}
 h2 { font-size: 3.6rem; line-height: 1.25;  color: #740C50 !important; margin-top:1.2em;}
 h3 { font-size: 3.0rem; line-height: 1.3;   color: #000 !important; }
 h4 { font-size: 2.4rem; line-height: 1.35;  }
-h5 { font-size: 1.8rem; line-height: 1.5;   }
+h5 { font-size: 1.8rem; line-height: 1.2;   }
 h6 { font-size: 1.5rem; line-height: 1.6;  }
 
 h5.offset-left-by-half.offset-tp-by-half > a {
 	text-decoration:none !important;
+}
+h5.h5-height:{
+	line-height: 1.2 !important;
 }
 
 .whitefont { color:#fff; }
@@ -242,10 +245,18 @@ h5.offset-left-by-half.offset-tp-by-half > a {
 
 .oir_title { color:#fff;font-size:1.2em;padding:0px; line-height:0.9; }
 
-.oir_title_h2 { color:#fff;font-size:1.2em;padding:0px; line-height:0.9; margin-top: 0.6em; margin-bottom:0.5em;}
+.oir_title_h2 {
+	font-size: 1.2em;
+    padding: 0px;
+    line-height: 0.9;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    margin-left: 2.8em;
+    white-space: nowrap;
+}
 
 a.site_title{
-	color:#fff; }	
+	color:#000; }	
 	
 a.site_title:hover {
 	text-decoration:none;
@@ -253,6 +264,10 @@ a.site_title:hover {
 	
 h2.featured > a { line-height: 1.25; letter-spacing: -.1rem; color: #000; padding:5px;  }
 
+h5.offset-left-by-half.offset-tp-by-half a:hover {
+	  color:#1f1f1f;
+}
+ 
 
 .overlay-txt{
 	position: absolute;
@@ -286,7 +301,7 @@ ul#superfish-9 > ul > li {
 
 
 div.region.region-sidebar-first ul#superfish-8 li > li:hover {
-		background-color: #e3929d !important; 
+		background-color: #635964 !important; 
 }
 
 div.region.region-sidebar-first ul#superfish-8 a {
@@ -346,9 +361,10 @@ p.p-featured{
 	background-color:#fff;
 }
   
-    
+h2.sm_left_margins.oir_title_h2 a.site_title {
+	color:#000;
+}   
   
- 
   
   
 /* Links
@@ -370,7 +386,7 @@ h2 > a {
 }
 
 a.site_title:hover{
-	color:white;
+	
 	text-decoration: underline !important; 
 	
 }
@@ -567,7 +583,10 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
-/* search block overrides */  
+  
+  /* Search
+  ----------------------------------------------*/
+  
 
 
 div.region.region-searcharea div#block-search-form.block.block-search div.content form#search-block-form div div.container-inline div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit{
@@ -661,12 +680,14 @@ div.region.region-sidebar-first div#block-superfish-8 a.nav-link.sf-depth-1:hove
 	
 }
 
-
+/* Menus
+----------------------------------------------------*/
+/*
  ul#superfish-8 > ul{
 	color:#fff;
 	background:#635964 !important; 
  }
-
+*/
 
 ul#superfish-8 a.sf-depth-2.menuparent.active{
 	font-weight:normal !important;
@@ -674,7 +695,7 @@ ul#superfish-8 a.sf-depth-2.menuparent.active{
 
 ul#superfish-8 a.sf-depth-2.menuparent.active:hover{
 	color:#fff;
-	background: #CD6279;
+	background: #635964;
 }
 
 ul#superfish-8 a.sf-depth-3:hover{
@@ -688,7 +709,7 @@ div#block-superfish-8.block.block-superfish a.sf-depth-2.menuparent{
 }
 
 div.region.region-sidebar-first div#block-superfish-8.block.block-superfish ul#superfish-8 li > ul > li.sf-depth-2:hover{
-	background: #CD6279 !important;
+	background: #635964 !important;
 }
 
 div#block-superfish-8.block.block-superfish > ul > ol > ol > li.sf-depth-3 > a:hover {
@@ -711,17 +732,17 @@ div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a
 
 div#block-superfish-8.block.block-superfish ol > li.sf-depth-2 > a:hover{
 	
-	background: #CD6279;
+	background: #635964;
 	text-decoration:none;
 }
 
 div#block-superfish-8 li.sf-depth-2 > a:hover,div#block-superfish-8 li.sf-depth-2 > a:active{
-	background: #CD6279 !important;
+	background: #635964 !important;
 }
 
 
 div#block-superfish-8 li.sf-depth-3 > a:hover,div#block-superfish-8 li.sf-depth-3 > a:active{
-	background: #CD6279 !important;
+	background: #635964 !important;
 
 }
 
@@ -729,6 +750,11 @@ div#block-superfish-8 li.sf-depth-3 > a{
 	text-decoration:none;
 	padding-left:5% !important;
 }
+
+
+
+/*Sidebar menus
+-------------------------------------------*/
 
 div.region.region-sidebar-first div#block-superfish-8 ul#superfish-8 ol li.active-trail a.sf-depth-3:active{
 	/*background: #CD6279;*/
@@ -739,6 +765,9 @@ div.region.region-sidebar-first div#block-superfish-8 ul#superfish-8 ol li.activ
 	font-weight:normal !important;
 	text-decoration:none;
 }
+ 
+
+ 
  
 div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit{
 	padding-left:1em;
@@ -774,6 +803,7 @@ ul#superfish-3{
 	text-align:center;
 	display:inline-block;
 	margin-bottom: -6px;
+	font-size: 1.3rem;
 	
 }  
  
@@ -796,7 +826,7 @@ li {
 
 
 li.active, li.active-trail{
-	 background-color: #635964 !important; }
+	 background-color: #635964 !important; color:#fff; }
 li.active > a:active, li.active-trail > a:active{
 	 color:#fff !important;
 
@@ -851,7 +881,11 @@ td:last-child {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
-  margin-bottom: 1.7rem; }
+  margin-bottom: 1.7rem;
+  }
+ .home_featured_button{
+	 	margin-left: 5px;
+ } 
 input,
 textarea,
 select,
@@ -965,7 +999,7 @@ hr {
   border-top: 1px solid #E1E1E1; }
   
 #oir_logo{
-
+  margin-top:1.0em;
   width:100%;
   height:auto;
  }
@@ -1016,6 +1050,8 @@ there.
 		width:75% !important;
 		height:auto;
 		margin-bottom:3px;
+		margin-left: 3px;
+		margin-top:3px;
 	}
 	.overlay-txt{
 		display:none;
@@ -1030,6 +1066,15 @@ there.
 	ul#superfish-3 > li{
 		
 	}	
+	
+input#edit-submit--2.form-submit{
+	position: absolute;
+    left: 320px;
+}	
+	
+	input#edit-submit--2.form-submit {
+		
+	}
 	
 ul#superfish-7-accordion li > a:hover, ul#superfish-7-accordion li > a:active  {
 		color:#fff;
@@ -1141,9 +1186,6 @@ div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit {
 
 	
 }	/* end media query */
-
-
-
 
 
 

@@ -67,6 +67,18 @@
 
 }
 
+.sf-style-morone li ul li ul li {
+	background: #1F1F1F;
+}
+
+.sf-style-morone li ul li ul li:hover {
+	background: #1F1F1F;
+}
+
+.sf-menu.sf-style-morone ul > li.last{
+	border-bottom: none;
+} 
+
 .sf-menu.sf-style-morone ul > ul > li  {
   background: #1F1F1F;
   opacity:1.0;
@@ -86,7 +98,7 @@
 
 .sf-menu.sf-style-morone ul > li > a:hover  {
   text-decoration:none;
-  background: #635964;
+  background: #635964 ;
 }
 
 .sf-depth-3{
@@ -101,25 +113,43 @@ ul#superfish-2 > ul > li > ul > li > span.sf-sub-indicator{
 
 /*  drop down */
 .sf-menu.sf-style-morone ul > li > ul > li {
-  background: #635964;
+  background: #1f1f1f;
   border-bottom:1px #fff solid;
 
 }
 
+.sf-menu.sf-style-morone ul > li > ul > li.last {
+  background: #1f1f1f;
+  border-bottom:none;
 
+}
 
+.sf-menu.sf-style-morone ul > li > ul > li.firstandlast{
+	 border-bottom:none;
+} 
+
+.sf-menu.sf-style-morone ul > li > ul > li > li.firstandlast{
+	border-bottom:none;
+} 
+
+.sf-menu.sf-style-morone ul > li > ul > li > li.last {
+  background: #1f1f1f;
+  border-bottom:none;
+
+}
 
 /**  drop down **/
 
 .sf-menu.sf-style-morone ul > li > ul > li > a:hover {
-	background: #907b92;
+	background: #635964 ;
     color:#fff !important;
 	text-decoration:underline;
 }
 
 .sf-menu.sf-style-morone ul > li > ul > li > a {
-	background: #907b92;
+	background: #1f1f1f;
 }
+
 
 
 .sf-menu.sf-style-morone li:hover,
@@ -135,9 +165,12 @@ ul#superfish-2 > ul > li > ul > li > span.sf-sub-indicator{
 
 .sf-menu.sf-style-morone li >  li:hover{
 	color:#1f1f1f;
-	background: #907b92;
+	background: #635964 ;
 }
 
+ul#superfish-10.sf-style-morone li > ul > li > ul > li {
+	 background-color: #1F1F1F !important;
+}
 
 .sf-menu.sf-style-morone.sf-navbar li ul {
   background-color: #1F1F1F;
@@ -147,6 +180,8 @@ ul#superfish-2 > ul > li > ul > li > span.sf-sub-indicator{
 .sf-menu.sf-style-morone.sf-navbar li ul li ul {
   /*background-color: transparent;*/
 }
+
+/** toggles not in use **/
 div.sf-accordion-toggle.sf-style-morone a {
   background: #791251;
   border: 1px outset #003973;
