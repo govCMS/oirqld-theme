@@ -29,7 +29,9 @@
 li#menu-613-8{
 
 }
-
+ul#superfish-5 li {
+	border-bottom: 1px solid;
+}
 
 .sf-menu.sf-style-none a.sf-with-ul,
 .sf-menu.sf-style-none span.nolink.sf-with-ul {
