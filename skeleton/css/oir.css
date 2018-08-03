@@ -31,6 +31,9 @@ div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div
 div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 ul li.last > a{
 	border-bottom: none !important;
 }
+div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 ul li.firstandlast > a{
+	border-bottom: none !important;
+}
 
 div.region.region-quicklinksmenu div#block-superfish-7.block.block-superfish div.content ul#superfish-7 ul li a.sf-depth-2:hover{
 	 background-color:#1f1f1f;
