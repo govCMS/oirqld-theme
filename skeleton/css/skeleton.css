@@ -583,6 +583,13 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
+div.region.region-content div#ul li  {
+	list-style-position:outside;
+}
+
+div.region.region-content div#ul   {
+	margin-left:2em;
+}  
   
   /* Search
   ----------------------------------------------*/
@@ -795,7 +802,9 @@ div#edit-actions.form-actions.form-wrapper input#edit-submit--2.form-submit{
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style:  inside; margin-left: 0.2em}
+  list-style:  inside; margin-left: 2.2em;
+  list-style-position:outside;
+  }
 ul ul {
   list-style: circle inside;	}  
   
@@ -820,6 +829,7 @@ ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
+  list-style-position:outside;
    }
 li {
   margin-bottom: 0.5rem;  margin-left: 0.5em;}
