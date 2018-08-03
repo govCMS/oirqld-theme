@@ -118,11 +118,15 @@ ul#superfish-2 > ul > li > ul > li > span.sf-sub-indicator{
 
 }
 
-.sf-menu.sf-style-morone ul > li > ul > li.last {
+.sf-menu.sf-style-morone ul > li > ul > li.last,.sf-menu.sf-style-morone ul > li > ul > li.firstandlast {
   background: #1f1f1f;
   border-bottom:none;
 
 }
+.sf-menu.sf-style-morone ul > li.firstandlast{
+	 border-bottom:none;
+}
+
 
 .sf-menu.sf-style-morone ul > li > ul > li.firstandlast{
 	 border-bottom:none;
