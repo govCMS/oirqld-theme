@@ -209,6 +209,10 @@ body {
 .node-readmore{
 	margin-left:-0.8em;
 }	
+
+li.node-readmore{
+   display:block;
+}
 	
 .oir_news_page_date{
 	font-size:0.9em;
