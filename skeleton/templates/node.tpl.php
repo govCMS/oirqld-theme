@@ -49,12 +49,14 @@ $lastpart = array_pop($urlpath);
 	print '</span><br><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
   }
   else{
+        if($title != 'Contact us'){
 	print '<p style="margin-top:25px;"><span class="oir_news_page_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</span></p>";
+	}
   }
   ?>
 
   <?php print render($content['links']); ?>
 
-  <?php print render($content['comments']); ?>
+
 
 </article>
