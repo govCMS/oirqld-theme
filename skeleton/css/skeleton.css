@@ -843,7 +843,9 @@ li.active > a:active, li.active-trail > a:active{
  }
 
 
-
+li.node-readmore {
+   display:block;
+}
 
 
 /* Code
