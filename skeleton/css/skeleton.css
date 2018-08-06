@@ -211,7 +211,7 @@ body {
 }	
 
 li.node-readmore{
-   display:block;
+   display:block !important;
 }
 	
 .oir_news_page_date{
