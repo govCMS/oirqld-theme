@@ -36,6 +36,12 @@
 				?>
 				</h1>
 				<?php print render($page['content']); ?>
+				<?php 
+				if($title =='Contact us'){
+				   print 'Last updated '.format_date($node->changed,'custom', 'd F Y');
+				}
+				?>
+						
 				
 		</div>
 		
