@@ -1051,6 +1051,13 @@ there.
 */
 
 @media (max-width:549px){
+	
+	
+	div.region.region-searcharea div#block-search-form.block.block-search div.content form#search-block-form div div.container-inline div#edit-actions.form-actions.form-wrapper input#edit-submit.form-submit
+		{
+			margin-right:0px !important;
+		}
+	
 	.sf-accordion-toggle.sf-style-dark{
 		display:none;
 	}
