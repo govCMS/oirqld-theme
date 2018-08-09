@@ -14,7 +14,28 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html <?php  $rdf_namespaces; ?>><!--<![endif]-->
 <head>
   <?php print $head; ?>
-  <title><?php print $head_title; ?></title>
+  <title>
+  <?php
+  if(drupal_is_front_page()){ 
+	print 'Home | Office of Industrial Relations';
+  }else{
+	   print $head_title;
+  }  ?>
+  
+  </title>
+
+  <?php 
+  if(drupal_is_front_page()){ 
+	?>
+<meta name="description" content="Office of Industrial Relations, Queensland Government, is the official site for work health and safety, electrical safety services, regulating workers’ compensation and industrial relations by supporting improved productivity and fairness in Queensland workplaces.">
+<meta name="keywords" content="workplace, health, safety, Worksafe, electrical, electricity, workers compensation, rehabilitation, return to work, industrial relations, labour hire, Queensland">
+	<?php 
+  }
+  ?>
+  
+  
+  
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 <meta http-equiv="cleartype" content="on">
