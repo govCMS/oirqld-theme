@@ -28,11 +28,26 @@
 			
 				<h1 class="md_bottom_margins_sm moronefont md-negative-top">
 				<?php 
-				if($thispath != 'search'){
-					print  render($title) ;
-					}else{
-						print 'Search';
+					
+				if($thispath == 'search'){
+						print 'search'  ;
 				}
+				elseif($thispath == 'sitemap'){
+						print render($title);
+						?>
+						<style>
+							h2.title{
+								display:none;
+							}
+						</style>
+						
+						<?php
+				}	
+					else{
+						print render($title);
+				}
+					
+					
 				?>
 				</h1>
 				<?php print render($page['content']); ?>
