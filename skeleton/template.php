@@ -9,17 +9,17 @@ function skeleton_preprocess_page(&$variables){
 } //end function preprocess page
 
 
-/** test **/
+
 function skeleton_menu_link_alter(&$item) {
   if($item['menu_name'] == 'main-menu')
   {
     $item['expanded'] = 1;
   }
 }
-/** end test **/
 
 
-//remove user name  from public search results
+
+
 function skeleton_preprocess_search_result(&$vars) {
   
   //overwrite search results block form title
