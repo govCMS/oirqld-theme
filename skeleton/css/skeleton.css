@@ -610,7 +610,10 @@ input#edit-search-block-form--2.form-text{
 	color: #686a69;
 	border: 1px solid;
 	border-color:#6F054F;
-	margin-left: -8em;	
+	margin-left: -8em;
+	background: url(../images/search__button.png) 50% 50% no-repeat transparent;
+	background-position:175px;
+	background-color:#fff;
 	
 }
 div.region.region-searcharea div#block-search-form.block.block-search div.content form#search-block-form div div.container-inline div#edit-actions.form-actions.form-wrapper input#edit-submit.form-submit{
