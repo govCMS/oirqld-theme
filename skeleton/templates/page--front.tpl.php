@@ -12,7 +12,7 @@
 		</div>
 		<div class="row">
 			<div class="twelve columns">
-<img src="<?php print path_to_theme(); ?>/images/986_InternettilegraphicOIRwebsite _1140x350px2.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> 
+<img src="<?php print path_to_theme(); ?>/images/5986_InternettilegraphicOIRwebsite _1140x350px2.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> 
 <!-- <img src="<?php print path_to_theme(); ?>/images/678500738-2048x2048.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
 <!-- <img src="<?php print path_to_theme(); ?>/images/935776976-2048x2048.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
 <!-- <img src="<?php print path_to_theme(); ?>/images/oir-banner-02.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
