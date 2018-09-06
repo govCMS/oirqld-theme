@@ -24,17 +24,20 @@
     position: absolute;
     top: 250px;
     padding-left: 20px;
-    padding-bottom: 160px;
+    padding-right: 20px;
+    padding-bottom: 140px;
     color: white;
     opacity: 0.8;
-    padding-top:  15px;
-    min-height: 200px;
+    /* padding-top:  15px; */
+    min-height: 220px;
     padding-top: 20;
     height: 300px;
-    "><h1>Send us your submission. The Consultation Regulatory Impact Statement investigating portable long service leave for workers in Queensland’s social and community services sector is now open for public consultation.</h1>
+    "><h1 style="
+    font-size: 1.8rem;
+           ">Send us your submission. </h1><p>The Consultation Regulatory Impact Statement investigating portable long service leave for workers in Queensland’s social and community services sector is now open for public consultation.</p>
 </div>
 				
-<!-- end demo overlay -->				
+<!-- end demo overlay -->			
 			
 	</div>	
 	</div>
