@@ -42,7 +42,7 @@
     height: 300px;
     "><h1 style="font-size: 1.9rem;font-weight: 600;">Send us your submission </h1><p>The Consultation Regulatory Impact Statement investigating portable long service leave for workers in Queensland’s social and community services sector is now open for public consultation.</p>
 </div>
-				</a>
+</a>
 				
 <!-- end demo overlay -->			
 			
