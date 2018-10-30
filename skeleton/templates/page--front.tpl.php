@@ -12,13 +12,18 @@
 		</div>
 		<div class="row">
 			<div class="twelve columns">
-				<a href="https://www.oir.qld.gov.au/industrial-relations/portable-long-service-leave-social-and-community-services" style="border:none">
+<!--
+<a href="https://www.oir.qld.gov.au/industrial-relations/portable-long-service-leave-social-and-community-services" style="border:none">
 <img src="<?php print path_to_theme(); ?>/images/5986_InternettilegraphicOIRwebsite _1140x350px2.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> 
+-->
+<a href="https://www.oir.qld.gov.au/about-us/our-strategic-plan" style="border:none">				
+<img src="<?php print path_to_theme(); ?>/images/www-oir-002.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;">
+				
 <!-- <img src="<?php print path_to_theme(); ?>/images/678500738-2048x2048.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
 <!-- <img src="<?php print path_to_theme(); ?>/images/935776976-2048x2048.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
 <!-- <img src="<?php print path_to_theme(); ?>/images/oir-banner-02.jpg" id="" style="max-width:1140px;width:100%;height:auto;margin-top: -10px;"> -->
 	<!-- start demo overlay -->
-				
+<!--				
 <div style="
     width: 1140px;
     background-color:  #000;
@@ -34,8 +39,9 @@
     padding-top: 20;
     height: 300px;
     "><h1 style="font-size: 1.9rem;font-weight: 600;">Send us your submission </h1><p>The Consultation Regulatory Impact Statement investigating portable long service leave for workers in Queensland’s social and community services sector is now open for public consultation.</p>
-</div>
-				</a>
+</div>-->
+
+</a>
 				
 <!-- end demo overlay -->		
 					
